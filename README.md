@@ -25,8 +25,7 @@ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 php --version
 composer --version
-cd /home/ubuntu/demo
-composer install
+cd /home/ubuntu/
 git clone https://github.com/PHP-DI/demo.git
 cd demo/
 composer install
